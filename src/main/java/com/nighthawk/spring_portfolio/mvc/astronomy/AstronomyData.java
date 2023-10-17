@@ -2,6 +2,7 @@ package com.nighthawk.spring_portfolio.mvc.astronomy;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import groovyjarjarpicocli.CommandLine.Help.TextTable.Cell;
+
 import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -109,8 +110,6 @@ public class AstronomyData {
             this.to = to;
         }
     }
-
-    
 
     public static class Table {
         private List<Row> rows;
